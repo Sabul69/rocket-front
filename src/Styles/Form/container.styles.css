@@ -1,0 +1,15 @@
+.chat{
+    background-color: rgb(222, 230, 233);
+    margin: 1rem;
+    padding: 1rem;
+}
+.chat input{
+    border-radius: 10px;
+    background-color: rgb(222, 230, 233);
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.chat_img{
+    margin: 1rem;
+}

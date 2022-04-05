@@ -1,0 +1,9 @@
+.bttn{
+    background-color: rgb(245, 82, 137);
+    padding: 1rem;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    left: 2rem;
+}

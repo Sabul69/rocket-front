@@ -1,0 +1,16 @@
+.title{
+    background-color: rgb(240, 108, 196);
+    height: 20vh;
+}
+
+.img{
+    width: 7rem;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+
+}

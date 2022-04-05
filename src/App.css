@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex{
   display: flex;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.column{
   flex-direction: column;
-  align-items: center;
+}
+.just-center{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.just-around{
+  justify-content: space-around;
+}
+.just-between{
+  justify-content: space-between;
+}
+.just-end{
+justify-content: flex-end;
 }
 
-.App-link {
-  color: #61dafb;
+.align-center{
+  align-items: center;
 }
+/* GRID */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.col12{
+  width: 100%;
+}
+.col11{
+  width: 91.66667%;
+}
+.col10{
+  width: 83.3333%;
+}
+.col9{
+  width: 75%;
+}
+.col8{
+  width: 66.6666%;
+}
+.col7{
+  width: 58.3%;
+}
+.col6{
+  width: 50%;
+}
+.col5{
+  width: 41.6666%;
+}
+.col4{
+  width: 33.3333%;
+}
+.col3{
+  width: 25%;
+}
+.col2{
+  width: 16.6666%;
+}
+.col1{
+  width: 8.3333%;
 }
